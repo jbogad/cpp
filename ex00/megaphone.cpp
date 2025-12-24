@@ -7,7 +7,7 @@ int main(int argc, char **av){
     int j = 1;
 
     if(argc < 2)
-        std::cout << "LOUD AND UNBEARABLE FEEDBACK NOISE";
+        std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE";
     while (j < argc)
     {
         i = 0;
