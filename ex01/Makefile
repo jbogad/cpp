@@ -1,11 +1,11 @@
 
-SRC = main.cpp
+SRC = main.cpp phonebook.cpp contact.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 RM = rm -f
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = cambiar
+NAME = phonebook
 
 all: $(NAME)
 
